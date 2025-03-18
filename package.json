@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+ "scripts": {
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "clean": "rm -rf dist && rm -rf .vite" 
+  "clean": "rd /s /q dist && rd /s /q .vite"
 },
   "dependencies": {
     "@emotion/react": "^11.14.0",
