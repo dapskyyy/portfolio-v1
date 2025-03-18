@@ -63,13 +63,13 @@ export function HorizontalTabsPortfolio() {
     {[
       { 
         title: "OASE Staff of BEM KMFT UGM",
-        img: "/public/bem.jpg",
+        img: "/bem.jpg",
         desc: "Organizing sports and art events, accommodating students' interests and talents, and supporting BEM activities in the field of sportsmanship and creativity.",
         animation: "fade-up-right"
       },
       {
         title: "Mikat Staff of KMTETI FT UGM",
-        img: "/public/kmteti.jpg",
+        img: "/kmteti.jpg",
         desc: "Develop and facilitate activities that support the development of students' interests and talents in the fields of academics, arts, and sports.",
         animation: "fade-up"
       },
@@ -95,13 +95,13 @@ export function HorizontalTabsPortfolio() {
     {[
       { 
         title: "Conditional IF-Else MS Excel",
-        img: "/public/sertif1.jpg",
+        img: "/sertif1.jpg",
         desc: "MS Excel's Conditional If-Else certification proves the ability to use IF logic for automated data analysis.",
         animation: "fade-up-right"
       },
       {
         title: "VLOOKUP & HLOOKUP MS Excel",
-        img: "/public/sertif2.jpg",
+        img: "/sertif2.jpg",
         desc: "The VLOOKUP and HLOOKUP MS Excel certifications prove the ability to search data vertically and horizontally efficiently.",
         animation: "fade-up"
       },

@@ -76,7 +76,7 @@ const HeroSection = () => {
 
                 {/* Bagian Kanan */}
                 <div className="relative w-60 h-60 md:w-96 md:h-96 flex justify-center md:justify-end" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="/public/3d4.png" alt="3D Developer Illustration" className="w-full animate-float" />
+                    <img src="/3d4.png" alt="3D Developer Illustration" className="w-full animate-float" />
                 </div>
             </section>
 
