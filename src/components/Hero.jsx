@@ -43,9 +43,12 @@ const HeroSection = () => {
                         Hi! I'm <span className="text-white">Daffa</span>.
                     </h1>
                     <h2 className="text-lg md:text-2xl font-medium leading-tight h-[32px]" data-aos="fade-right" data-aos-duration="800">
-                        <span className="text-white">{displayText}</span>
-                        <span className="blinking-cursor">|</span>
-                    </h2>
+  <span className="text-white">
+    {displayText}
+    <span className="blinking-cursor">|</span>
+  </span>
+</h2>
+
                     <p className="text-lg md:text-xl mt-2 text-gray-300" data-aos="fade-right" data-aos-duration="1000">
                         Undergraduate Electrical Engineering Student at Gadjah Mada University.
                     </p>
@@ -94,14 +97,16 @@ const HeroSection = () => {
                     }
 
                     .blinking-cursor {
-                        display: inline-block;
-                        width: 0.08em; /* Setel agar pas dengan ukuran font */
-                        height: 1em; /* Sejajar dengan huruf */
-                        background-color: #fff;
-                        animation: blink 1s step-end infinite;
-                        vertical-align: baseline; /* Biar pas sejajar */
-                        margin-left: 2px; /* Jarak sedikit dari teks */
-                    }
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background-color: #fff;
+  animation: blink 1s steps(2, start) infinite;
+  vertical-align: text-bottom; /* Pastikan sejajar dengan teks */
+  margin-left: 2px;
+  position: relative;
+}
+
 
                     @keyframes blink {
                         0%, 100% { opacity: 1; }

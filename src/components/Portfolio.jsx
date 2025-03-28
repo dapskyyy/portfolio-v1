@@ -105,6 +105,12 @@ export function HorizontalTabsPortfolio() {
         desc: "The VLOOKUP and HLOOKUP MS Excel certifications prove the ability to search data vertically and horizontally efficiently.",
         animation: "fade-up"
       },
+      {
+        title: "Intro to Software Engineering",
+        img: "/sertif3.png",
+        desc: "The VLOOKUP and HLOOKUP MS Excel certifications prove the ability to search data vertically and horizontally efficiently.",
+        animation: "fade-up-left"
+      },
     ].map((exp, index) => (
       <div key={index}
         className={`bg-black border border-white rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition transform duration-300`}
